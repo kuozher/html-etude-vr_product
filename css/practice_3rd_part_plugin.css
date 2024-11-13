@@ -543,6 +543,7 @@ a{
 
 .products-item .content{
     padding: 16px;
+    min-height: 260px;
 }
 
 .products-item .content .title{
@@ -697,7 +698,8 @@ a{
 
 .footer .nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .footer .nav-item{
