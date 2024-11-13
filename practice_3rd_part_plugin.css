@@ -535,6 +535,7 @@ a{
 
 .products-item:hover{
     background: #e3ebff;
+    line-height:1.5;
     /* transform: scale(1.02); */
     outline: 1.5px solid #3471ff;
     outline-offset: -2px;
@@ -543,6 +544,7 @@ a{
 
 .products-item .content{
     padding: 16px;
+    min-height: 280px;
 }
 
 .products-item .content .title{
@@ -697,7 +699,8 @@ a{
 
 .footer .nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .footer .nav-item{
