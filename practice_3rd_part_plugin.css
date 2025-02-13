@@ -24,7 +24,10 @@ a{
     color: #b2875c;
 }
 
-
+.wrapper {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 /*  建立通用切版版型：
         *   弄一個通用的置中區塊
