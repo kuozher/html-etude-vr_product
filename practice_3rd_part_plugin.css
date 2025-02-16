@@ -7,6 +7,8 @@
 
 html,body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden; /* 防止水平滾動 */
+
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -839,7 +841,7 @@ a{
 .owl-theme .owl-nav{
     position: absolute;
     /* 記得 calc 裡面的運算子前後要加上空格 */
-    top: calc((100% - 260px) / 2);
+    top: calc((100% - 130px) / 2);
     width: 100%;
     left: 0;
 }
@@ -899,6 +901,19 @@ a{
     background-color: #3471ff;
     transition: 0.3s;
 }
+
+/* 為 owl-carousel 內的 products-item 設置特定樣式 */
+.owl-carousel .products-item {
+    width: 90%; /* 或其他你想要的寬度 */
+    margin: 10px auto; /* 上下 10px，左右自動置中 */
+}
+
+/* 確保 owl-carousel 項目有適當的內邊距 */
+.owl-carousel .owl-item {
+    padding: 8px;
+    box-sizing: border-box;
+}
+
 
 
 /* .owl-carousel .owl-stage-outer{
