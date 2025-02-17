@@ -881,11 +881,11 @@ a{
 }
 
 .owl-theme .owl-nav button.owl-prev{
-    left: -16px;
+    left: 0px;
 }
 
 .owl-theme .owl-nav button.owl-next{
-    right: -16px;
+    right: 0px;
 }
 
 
